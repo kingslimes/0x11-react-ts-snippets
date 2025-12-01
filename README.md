@@ -17,10 +17,9 @@
 </div>
 
 > คอลเลกชัน Snippets คุณภาพสูงสำหรับ React + TypeScript และ Next.js App Router
-> เร็ว แม่นยำ พิมพ์ดี โดย kingslimes
 
-ติดตั้ง: https://marketplace.visualstudio.com/items?itemName=kingslimes.0x11-react-ts-snippets
-GitHub: https://github.com/kingslimes/0x11-react-ts-snippets
+#### ติดตั้ง: https://marketplace.visualstudio.com/items?itemName=kingslimes.0x11-react-ts-snippets
+#### GitHub: https://github.com/kingslimes/0x11-react-ts-snippets
 
 ## ทำไมต้องใช้ 0x11-react-ts-snippets?
 
