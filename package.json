@@ -1,0 +1,21 @@
+{
+  "name": "0x11-react-ts-snippets",
+  "displayName": "Next & React snippets",
+  "description": "react typescript snippets",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.1"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "favicon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

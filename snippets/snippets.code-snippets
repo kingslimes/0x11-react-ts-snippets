@@ -1,0 +1,137 @@
+{
+    // -------------------- React Vite Components --------------------
+    "React Functional Component (TSX)": {
+        "prefix": "rfcp",
+        "body": [
+            "",
+            "type ${1:${TM_FILENAME_BASE}}Props = {",
+            "\t${2:key}: ${3:string}",
+            "}",
+            "",
+            "export default function $1({}: $1Props) {",
+            "\treturn (",
+            "\t\t<div>$4</div>",
+            "\t);",
+            "}",
+            ""
+        ],
+        "description": "React Functional Component with props, Vite + TSX"
+    },
+    "React Functional Component No Props": {
+        "prefix": "rfc",
+        "body": [
+            "",
+            "export default function ${1:${TM_FILENAME_BASE}}() {",
+            "\treturn (",
+            "\t\t<div>$2</div>",
+            "\t);",
+            "}",
+            ""
+        ],
+        "description": "React Functional Component without props"
+    },
+
+    // -------------------- React Hooks --------------------
+    "React useState": {
+        "prefix": "us",
+        "body": [
+            "const [$1, set$2] = useState<$3>($4);"
+        ]
+    },
+    "React useEffect": {
+        "prefix": "ue",
+        "body": [
+            "useEffect(() => {",
+            "\t${1}",
+            "}, [${2}]);"
+        ]
+    },
+    "React useRef": {
+        "prefix": "urf",
+        "body": [
+            "const ${1:refName} = useRef<${2:HTMLDivElement}>(null);"
+        ]
+    },
+    "React useCallback": {
+        "prefix": "ucb",
+        "body": [
+            "const ${1:fn} = useCallback(() => {",
+            "\t${2}",
+            "}, [${3}]);"
+        ]
+    },
+    "React Memo": {
+        "prefix": "rmemo",
+        "body": [
+            "const ${1:ComponentName} = memo(() => {",
+            "\treturn (",
+            "\t\t<div>${2}</div>",
+            "\t);",
+            "});",
+            "",
+            "export default $1;"
+        ]
+    },
+
+    // -------------------- NextJs Export --------------------
+    "Next.js Export revalidate": { "prefix": "expr", "body": ["export const revalidate = 60; // seconds"] },
+    "Next.js Export dynamic": { "prefix": "expd", "body": ["export const dynamic = 'auto'; // 'auto' | 'force-dynamic' | 'force-static'"] },
+    "Next.js Export fetchCache": { "prefix": "expf", "body": ["export const fetchCache = 'default'; // 'default' | 'force-cache'"] },
+
+    // -------------------- React Imports --------------------
+    "Import useState": { "prefix": "imps", "body": ["import { useState } from \"react\";"] },
+    "Import useEffect": { "prefix": "impe", "body": ["import { useEffect } from \"react\";"] },
+    "Import useRef": { "prefix": "impr", "body": ["import { useRef } from \"react\";"] },
+    "Import useCallback": { "prefix": "impb", "body": ["import { useCallback } from \"react\";"] },
+    "Import memo": { "prefix": "impm", "body": ["import { memo } from \"react\";"] },
+    "Import useState and useEffect": { "prefix": "impse", "body": ["import { useState, useEffect } from \"react\";"] },
+
+    "Next.js Component": {
+        "prefix": "nc",
+        "body": [
+            "",
+            "export default function ${1:${TM_FILENAME_BASE}}Component() {",
+            "\treturn (",
+            "\t\t<div>$2</div>",
+            "\t);",
+            "};",
+            ""
+        ]
+    },
+    // -------------------- Next.js Client Component --------------------
+    "Next.js Client Component (TS)": {
+        "prefix": "ncc",
+        "body": [
+            "\"use client\";",
+            "",
+            "type ${1:${TM_FILENAME_BASE}}Props = {}",
+            "",
+            "export default function $1Component({}: $1Props) {",
+            "\treturn (",
+            "\t\t<div>$2</div>",
+            "\t);",
+            "};",
+            ""
+        ]
+    },
+
+    // -------------------- Next.js Server Component --------------------
+    "Next.js Server Component (TS)": {
+        "prefix": "ncs",
+        "body": [
+            "\"use server\";",
+            "",
+            "type ${1:${TM_FILENAME_BASE}}Props = {",
+            "\tparams: Record<string, string>;",
+            "\tsearchParams: { [key: string]: string | string[] | undefined };",
+            "}",
+            "",
+            "export default async function ${1:${TM_FILENAME_BASE}}(props: $1Props) {",
+            "\treturn (",
+            "\t\t<div>$2</div>",
+            "\t);",
+            "};",
+            ""
+        ]
+    }
+}
