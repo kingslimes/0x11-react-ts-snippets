@@ -1,11 +1,20 @@
-# Next & React snippets
+<div align="center">
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kingslimes.0x11-react-ts-snippets?label=VS%20Marketplace&logo=visual-studio-code)
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/kingslimes.0x11-react-ts-snippets?color=brightgreen)
-![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/stars/kingslimes.0x11-react-ts-snippets)
-![License](https://img.shields.io/github/license/kingslimes/0x11-react-ts-snippets?color=blue)
+# 0x11 React TS Snippets
+
+**Modern, fast and comprehensive React + TypeScript snippets for Next.js 14+ (App Router) and React 18+**
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visual-studio-code&logoColor=white)
 ![React](https://img.shields.io/badge/React-18+-61dafb?logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-14+%20(App%20Router)-000000?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
+
+[![VS Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kingslimes.0x11-react-ts-snippets?label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kingslimes.0x11-react-ts-snippets)
+[![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/kingslimes.0x11-react-ts-snippets?color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=kingslimes.0x11-react-ts-snippets)
+[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/stars/kingslimes.0x11-react-ts-snippets)](https://marketplace.visualstudio.com/items?itemName=kingslimes.0x11-react-ts-snippets&ssr=false#review-details)
+[![License](https://img.shields.io/github/license/kingslimes/0x11-react-ts-snippets?color=blue)](https://github.com/kingslimes/0x11-react-ts-snippets/blob/main/LICENSE)
+
+</div>
 
 > คอลเลกชัน Snippets คุณภาพสูงสำหรับ React + TypeScript และ Next.js App Router
 > เร็ว แม่นยำ พิมพ์ดี โดย kingslimes
